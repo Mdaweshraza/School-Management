@@ -1,0 +1,16 @@
+.mainhead {
+    height:100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 3.3em;
+    }
+
+    h5 {
+        font-size: 0.9em;
+    }
+}

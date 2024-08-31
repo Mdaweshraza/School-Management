@@ -1,0 +1,41 @@
+.popup {
+   border-radius: 10px;
+    .modalHead {
+        background-color: #0099ff60;
+        color: blue; 
+        border-top-left-radius: 10px;
+    }
+    .modalBody{
+        // background-color: yellowgreen;
+        overflow: hidden;
+        label{
+            font-size: 16px;
+            font-weight: 450;
+            
+            padding-bottom: 10px;
+        }
+        input{
+            margin-left: 20px;
+            width: 250px;
+        }
+        input[type = "radio"]{
+            margin-left: 20px;
+            width: 10px;
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            padding: 8px;
+            margin-top: 5px;
+            width: 120px;
+            border: 1.5px solid black;
+            border-radius: 10px;
+            background-color: #0099ff60;
+            color: #fdf9f9;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+        }
+    }
+
+}

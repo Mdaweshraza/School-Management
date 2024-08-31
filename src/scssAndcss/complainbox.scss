@@ -1,0 +1,186 @@
+.complainbox {
+    // background-color: red;
+    margin-top: 150px;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    form {
+        border: 1px solid #0099ff60;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #2293df21;
+        margin-right: 5px;
+
+        label {
+            font-size: 16px;
+            font-weight: 450;
+
+            padding-bottom: 10px;
+        }
+
+        input {
+            margin-left: 20px;
+            width: 250px;
+            border: 1px solid #ccc;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        input:active,
+        input:focus {
+            // margin-left: 20px;
+            // width: 250px;
+            // background-color: #2293df11;
+            border-color: #007BFF;
+            box-shadow: 0 0 2px rgba(0, 123, 255, 0.363);
+            outline: none;
+        }
+
+        input[type="submit"] {
+            padding: 8px;
+            margin-top: 5px;
+            width: 120px;
+            border: 1.5px solid black;
+            border-radius: 10px;
+            background-color: #0099ff60;
+            color: #fdf9f9;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+        }
+
+        .description-input {
+            margin-top: 10px;
+            width: 300px;
+            height: 150px;
+            padding: 10px;
+            margin-left: 15px;
+            font-size: 16px;
+            line-height: 1.5;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            resize: vertical;
+            background-color: #f9f9f9;
+        }
+
+        .description-input:focus {
+            border-color: #007BFF;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.363);
+            outline: none;
+        }
+
+        .description-input::placeholder {
+            color: #999;
+            font-style: italic;
+        }
+    }
+}
+
+
+
+// .complainbox {
+//     height: 600px;
+//     width: 350px;
+//     margin: auto;
+//     margin-top: 30px;
+//     border-radius: 25px;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     border: 2px solid rgba(102, 51, 153, 0.555);
+
+//     h3 {
+//         display: flex;
+//         justify-content: center;
+//         border-top-left-radius: 25px;
+//         border-top-right-radius: 25px;
+//         background-color: #0010f01f;
+//         width: 350px;
+//         height: 65px;
+//         align-items: center;
+//         border: 1px solid rgba(102, 51, 153, 0.555);
+//     }
+
+//     form {
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+//         justify-content: center;
+//         width: 330px;
+
+
+//         input{
+//             width: 300px;
+//             padding:0px 10px;
+//             font-size: 16px;
+//             line-height: 1.5; 
+//             border: 1px solid #ccc; 
+//             border-radius: 5px; 
+//             box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+//             resize: vertical;
+//             background-color: #f9f9f9; 
+//         }
+//         .description-input {
+
+//             width: 300px;
+//             height: 150px; 
+//             padding: 10px;
+//             margin-left: 15px;
+//             font-size: 16px;
+//             line-height: 1.5; 
+//             border: 1px solid #ccc; 
+//             border-radius: 5px; 
+//             box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+//             resize: vertical;
+//             background-color: #f9f9f9; 
+//         }
+
+//        #dis{
+//         margin-left: 15px;
+//        }
+//         .description-input:focus , input:focus{
+//             border-color: #007BFF; 
+//             box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+//             outline: none; 
+//         }
+
+//         .description-input::placeholder {
+//             color: #999; 
+//             font-style: italic; 
+//         }
+
+//         label {
+//             font-size: 20px;
+//             padding: 10px 0px;
+//         }
+//        /* Basic button styles */
+// .button {
+//     background-color: #007BFF;
+//     margin-top: 20px;
+//     color: #fff; 
+//     font-size: 20px;
+//     border: none; 
+//     border-radius: 5px; 
+//     padding: 10px 20px; 
+//     font-size: 16px; 
+//     cursor: pointer; 
+//     transition: background-color 0.3s, box-shadow 0.3s; 
+//     display: inline-block;
+//     text-align: center;
+//     text-decoration: none; 
+// }
+
+
+
+
+
+
+
+//     }
+
+// }
